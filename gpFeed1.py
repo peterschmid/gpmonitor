@@ -13,10 +13,10 @@ ser = serial.Serial(
         bytesize=serial.EIGHTBITS,
         timeout=1
 )
-print ser.name
-print "Send B to arduino"
+print (ser.name)
+print ("Send B to arduino")
 ser.write(b'B')
 time.sleep(1)
-print "Send A to arduino"
+print ("Send A to arduino")
 ser.write(b'A')
 ser.close()
