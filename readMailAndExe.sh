@@ -25,12 +25,12 @@ do
 
   Feed3)
   echo "Feed Station 3"
-  /home/pi/gpFeed2.sh
+  /home/pi/gpFeed3.sh
   ;;
 
   Feed4)
   echo "Feed Station 4"
-  /home/pi/gpFeed2.sh
+  /home/pi/gpFeed4.sh
   ;;
 
   Help)
