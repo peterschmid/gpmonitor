@@ -86,7 +86,7 @@ def sendMail(smtpServer='', port='', usr='', pw='', toaddrList=[''], subject='Te
   server.quit()
 
 
-def sendSingelTextMail(subject, body):
+def sendSingleTextMail(subject, body):
   smtpServer, port, usr, pw, toaddrList =  readCofnigFile('mail.conf')
   sendMail(smtpServer, port, usr, pw, toaddrList[0:1], subject, body)
 
