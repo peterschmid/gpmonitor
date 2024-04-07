@@ -9,4 +9,4 @@ if len(sys.argv) != 2:
     sys.exit(0)
 filenamePic = str(sys.argv[1])
 
-sendSingleTextMailWithPic("Temperature Picture", "Temperatures: " + filenamePic, filenamePic)
+sendSingleTextMailWithPic("GP-Feeder Picture", "GP Picture: " + filenamePic, filenamePic)
